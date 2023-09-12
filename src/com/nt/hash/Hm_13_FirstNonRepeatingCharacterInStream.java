@@ -27,7 +27,7 @@ public class Hm_13_FirstNonRepeatingCharacterInStream {
 	}
 
 	public static void main(String[] args) {
-		String input = "aabc";
+		String input = "aabcd";
 		String response = FirstNonRepeating(input);
 		System.out.println(response);
 	}
