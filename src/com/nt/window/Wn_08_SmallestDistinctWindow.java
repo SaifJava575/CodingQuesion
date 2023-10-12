@@ -3,7 +3,7 @@ package com.nt.window;
 import java.util.HashMap;
 import java.util.HashSet;
 
-public class Wn_SmallestDistinctWindow {
+public class Wn_08_SmallestDistinctWindow {
 
 	// T(C)=O(256.N) and S(C)=O(256)
 	public static int findSubString(String str) {
