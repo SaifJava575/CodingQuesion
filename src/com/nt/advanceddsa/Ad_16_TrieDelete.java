@@ -2,7 +2,7 @@ package com.nt.advanceddsa;
 
 import java.util.LinkedList;
 
-public class TrieDelete {
+public class Ad_16_TrieDelete {
 	class TrieNode {
 		char content;
 		boolean isEnd;
