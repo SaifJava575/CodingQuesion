@@ -1,5 +1,8 @@
 package com.nt.advanceddsa;
 
+import java.util.List;
+import java.util.Map;
+
 public class Ad_19_MinimumXORValuePair {
 
 	static int minxorpair(int N, int nums[]) {
@@ -19,6 +22,8 @@ public class Ad_19_MinimumXORValuePair {
 		int n = arr.length;
 		int response = minxorpair(n, arr);
 		System.out.println("Minimum Pair value is "+response);
+		
+		
 	}
 
 }
