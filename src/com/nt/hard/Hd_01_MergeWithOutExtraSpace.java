@@ -38,13 +38,39 @@ public class Hd_01_MergeWithOutExtraSpace {
 			System.out.print(b[i] + " ");
 
 	}
+	//T(C)-=O((n+m) log(n+m))  and S(C)=O(1)
+	public static void merge1(long arr1[], long arr2[], int n, int m) 
+    {
+        int start = 0;
+        int end = arr1.length-1;
+        while (end >= 0 && start < arr2.length){
+            if (arr2[start] < arr1[end]){
+                long temp = arr2[start];
+                arr2[start] = arr1[end];
+                arr1[end] = temp;
+                start++;
+                end--;
+            }
+            else{
+                break;
+            }
+        }
+        Arrays.sort(arr1);
+        Arrays.sort(arr2);
+        
+        for(long i:arr1)
+        	System.out.print(i+" ");
+        System.out.println();
+        for(long i:arr2)
+        	System.out.print(i+" ");
+    }
 
 	public static void main(String[] args) {
 		long arr1[] = { 1, 3, 5, 7 };
 		long arr2[] = { 0, 2, 6, 8, 9 };
 		int n = arr1.length;
 		int m = arr2.length;
-		merge(arr1, arr2, n, m);
+		merge1(arr1, arr2, n, m);
 
 	}
 
