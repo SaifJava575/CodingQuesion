@@ -42,7 +42,7 @@ public class Hd_13_MaxRectangularArea {
 		}
 		return res;
 	}
-	// TC()
+	
 
 	public static void main(String[] args) {
 		int M[][] = { { 0, 1, 1, 0 }, { 1, 1, 1, 1 }, { 1, 1, 1, 1 }, { 1, 1, 0, 0 } };
