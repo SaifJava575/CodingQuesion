@@ -2,7 +2,7 @@ package com.nt.hard;
 
 import java.util.Arrays;
 
-public class WildCardStringMatching {
+public class Hd_27_WildCardStringMatching {
 
 	// T(C),S(C)=O(length of wild string * length of pattern string)
 	static boolean match(String wild, String pattern) {
