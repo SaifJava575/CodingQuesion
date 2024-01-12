@@ -1,6 +1,6 @@
 package com.nt.hard;
 
-public class Hd_30_ReOrderList {
+public class Hd_28_ReOrderList {
 
 	// T(c)=O(N) and S(C)=O(1)
 	static void reorderlist(SingleLinkListNode head) {
