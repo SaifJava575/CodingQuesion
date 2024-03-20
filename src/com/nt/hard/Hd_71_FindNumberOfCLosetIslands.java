@@ -23,7 +23,6 @@ public class Hd_71_FindNumberOfCLosetIslands {
 	public static void dfs(int[][] matrix, int i, int j) {
 		if (i < 0 || i >= matrix.length || j < 0 || j >= matrix[0].length || matrix[i][j] != 1) 
 			return;
-		
 		matrix[i][j] = 0;
 		dfs(matrix, i + 1, j);
 		dfs(matrix, i - 1, j);
