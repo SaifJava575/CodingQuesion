@@ -24,7 +24,7 @@ public class St_12_NonRepeatingFirstCharater {
 	}
 
 	public static void main(String[] args) {
-		String str = "simsim";
+		String str = "geeeksforgeeks";
 		String res=nonRepeatingCharater(str);
 		System.out.println("First Non repeating charater is::"+res);
 
